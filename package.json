@@ -5,13 +5,14 @@
   "main": "index.js",
   "scripts": {
     "start": "http-server",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jasmine-browser-runner runSpecs"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "http-server": "^14.1.0"
+    "http-server": "^14.1.0",
+    "serve-static": "^1.14.2"
   },
   "devDependencies": {
     "jasmine-browser-runner": "^1.0.0",
