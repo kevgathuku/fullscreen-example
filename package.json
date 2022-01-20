@@ -12,5 +12,9 @@
   "license": "ISC",
   "dependencies": {
     "http-server": "^14.1.0"
+  },
+  "devDependencies": {
+    "jasmine-browser-runner": "^1.0.0",
+    "jasmine-core": "^4.0.0"
   }
 }
